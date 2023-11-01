@@ -66,3 +66,18 @@ In the MATLAB implementation, the surface potential of the proposed structure is
 In TCAD implementation, the code is implemented in DECK BUILD of Silvaco TCAD. The steps involve defining mesh dimensions, specifying different regions and materials, defining electrodes, specifying doping concentrations, defining dual material properties, and solving for the voltages at the source, drain, and gate. The results are then read from the .str and .log files, and further analysis is done using Tonyplot. The results are saved as .csv files and can be compared with the MATLAB outputs.
 
 Overall, the project involves implementing the analytical model in MATLAB to analyze the surface potential, electric field, and drain current, and using TCAD to simulate and analyze the characteristics of the proposed structure.
+
+
+# RESULTS & CONCLUSION :
+
+The MATLAB results of the proposed structure are as follows:
+
+1. Surface Potential: The plot shows that the buried oxide with HfO2 has a higher surface potential compared to SiO2. The surface potential decreases with an increase in the thickness of the oxide.
+
+2. Electric Field: The electric field along the channel increases with an increase in the voltage applied at the drain-source junction. The lateral electric field is higher for HfO2 as the buried oxide compared to SiO2.
+
+3. Drain Current: The drain current increases with an increase in the gate voltage applied at Vgs. The buried oxide with HfO2 shows improved ON current compared to SiO2 and the combination of SiO2 and HfO2.
+
+The TCAD simulated results and the analytical model outputs are compared. The surface potential, electric field, and drain current values are slightly different between the two, but overall, they show similar trends.
+
+In conclusion, the proposed structure of hetero dielectric BOX and hetero junction dual material TFET shows improved characteristics compared to normal TFETs. The surface potential, electric field, and drain current are analyzed and compared with both TCAD simulated results and analytical model outputs. The results demonstrate the advantages of the proposed structure in overcoming the limitations of MOSFETs and improving the performance of TFETs.
